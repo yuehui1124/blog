@@ -18,7 +18,7 @@ after_script:
 # E: Build LifeCycle
 branches:
   only:
-    - blog
+    - master
 env:
  global:
    - GH_REF: git@github.com:yuehui1124/blog.git
